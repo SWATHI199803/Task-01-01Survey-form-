@@ -1,0 +1,62 @@
+
+/* CSS for styling the HTML  */
+
+
+/* change background color for body,adjust margin ,adjusting padding*/
+body{
+    background: #ffebcd;     
+    margin-left: auto;     
+    margin-right: auto;
+    padding: 20px 20px 20px 20px; 
+  }
+
+   div h2{
+    display:flex;         
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px 0px 15px 50px;
+    background: #4682b4;
+    color: #b22222;
+  }
+
+  .image{
+    float:left;
+    width: 50px;
+    top: 50px;
+  }
+  
+  input,select{
+    background: #dcdcdc;
+    color: #000000;
+    
+  }
+
+  /* input change color when cursor focused on it */
+  input:focus{        
+    background: #bdb76b;
+    width: 25%;
+  }
+
+
+  /* to add extra content after to text */
+  label:after{
+    
+    content: "*";  
+    color: red;
+  }
+ 
+span{
+  color:red;
+}
+
+.border{
+  background:#F0E68C;
+  border:1px solid black;
+}
+ 
+table{
+  margin-left:auto;
+  margin-right:auto;
+}
+  

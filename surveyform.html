@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="surveyform.css"/>
+</head>
+<body>
+    <center>
+        
+      <!-- Header for surveyform -->
+<div class="border">
+  <div>
+            <h2><img class="image" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/esq-cvdvaccartboard-1-1586444649.png"/><marquee>Survey form for Covid vaccinated or not ??!!</marquee><img class="image" src="https://tse2.mm.bing.net/th?id=OIP.vg6dIDg7dMi7sTL75MouVQHaEK&pid=Api&P=0&w=288&h=163"/></h2> </div>
+  
+  <!-- creating survey form using form tag -->
+  <!-- table created inside the form form alignment -->
+          <form>
+              <table>
+  <!--              input for firstname -->
+                <tr>
+                  <td><label for="fname" > First Name:</label></td>
+                  <td><input type="text" id="fname" placeholder=" Enter your First Name" required/></td>
+                     </tr>
+                
+  <!--               input for lastname in text format -->
+                <tr>
+                  <td><label for="lname" > Last Name:</label></td>
+                  <td><input type="text" id="lname" placeholder="Enter Your Last Name" required/></td>
+                  
+                </tr>
+                
+  <!--              select option for gender -->
+                
+            <tr>
+              <td><label for="gender">Gender:</label></td>
+              <td><select id="gender" >
+                <option value="" disabled selected> Select  Gender</option>
+                <option>Female</option>
+                <option>Male</option>
+                <option>other</option>
+                </select></td>
+                </tr>
+             
+                
+  <!--              input for age with pattern [0-9]  -->
+                <tr>
+                  <td><label for="age" >Age:</label></td>
+                  <td><input type="text" id="age" pattern="[0-9]*" placeholder=" Enter Your Age" required></td>
+                </tr>
+            
+  <!--            input for email with email format -->
+                
+              <tr>
+                <td><label for="mail id">E-Mail Address:</label></td>
+                <td><input type="email" id="mail id" placeholder="Enter Your Email ID" required></td>
+              </tr>
+                
+  <!--               input for phone number with tel format -->
+                
+                <tr>
+                  <td><label for="phone-number">Contact Number:</label></td>
+              <td><input type="Phonenumber" id="phone-number" placeholder="Enter Your Phone Number" required></td>
+            </tr>
+                
+  <!--               radio input for choose one from it -->
+                
+            <tr>
+              <td><label for="student">Are You Vaccinated ?</label></td>
+              <td><input type="radio" id="test" name="covid-vaccination">
+                <label for="student"> Yes</label>
+              <input type="radio" id="test" name="covid-vaccination">
+                <label for="student"> No</label></td>
+                </tr>
+          
+  <!--               date input for selecting date instead of typing -->
+                
+              <tr>
+              
+                <td><label>Enter Date Of Vaccinated(if "YES")<label></td>
+                  <td><input type="date" id="date"/></td>
+              </tr>
+            
+  <!--                 submit input for send form information to other url...here url is not mentioned in form action ...the result will ne not found when submit button is clicked -->
+                  
+               <tr>
+                 <td><input type="submit"/>
+                   <p>(<span>*</span> are required to fill)</p></td>
+              
+               </tr>
+                
+              </table>
+          </form>
+   </div>
+            
+        
+    </center>
+</body>
+</html>
